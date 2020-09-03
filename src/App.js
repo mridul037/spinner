@@ -7,7 +7,7 @@ export class App extends React.Component {
 
   constructor() {
     super();
-    this.places = ['Pizzas', 'Sandwiches', 'Salads', 'Soup', 'Japanese food', 'Pastas'];
+    this.places = ['Better luck next time!', '2X Savings', '₹100 Cashback', '₹20 💸', '₹50 💸', '1.5X Savings','2X Savings','₹50 💸'];
   }
   render() {
   return (
@@ -15,8 +15,10 @@ export class App extends React.Component {
       <Circle items={this.places}/>
       <div className="logo">
       <img src={logo} alt="Logo" />
+     
       </div>
-      <Card></Card>
+      <Card/>
+     <p> Have a question? <a className="link">Get help</a></p>
     </div>
   );
   }

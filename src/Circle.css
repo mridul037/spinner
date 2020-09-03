@@ -15,7 +15,11 @@
     --reset-duration: 0.25s;
   }
   
-  
+  @media (max-width: 400px){
+    :root {
+      --wheel-size:300px;
+    }
+  }
   .wheel-container {
     display: block;
     position: relative;
@@ -140,4 +144,4 @@
   
     border-right: solid var(--neutral-color) calc(var(--wheel-size) / 2);
   }
-  
+ 
